@@ -10,7 +10,7 @@ WORKDIR /home/
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update -y && apt-get update -y && apt-get install python python-pip git qgis nano language-pack-es-base language-pack-ca-base language-pack-gl-base language-pack-eu-base -y
+RUN apt update -y && apt upgrade -y && apt install python python-pip git qgis nano language-pack-es-base language-pack-ca-base language-pack-gl-base language-pack-eu-base -y
 
 RUN git clone https://github.com/OSM-es/CatAtom2Osm.git
 
