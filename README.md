@@ -1,2 +1,2 @@
-# dockfiles
-Some Dockfiles about docker images
+# Dockerfiles
+Some Dockerfiles about Docker images
